@@ -5,8 +5,7 @@ This repository contains my project submissions for the DecodeLabs Internship.
 ## Project 1: Smart Agriculture Irrigation System (ESP32)
 An automated irrigation system designed with an ESP32, simulated live on Wokwi. It monitors soil moisture using a potentiometer and triggers a water pump (LED) when moisture levels drop below 35%.
 
-* **Live Simulation Link:** https://wokwi.com/projects/435747683936655361
-
+* **Live Simulation Link:**https://wokwi.com/projects/469622950108971009
 ---
 
 ## Project 2: Systems Resource Monitor Utility
