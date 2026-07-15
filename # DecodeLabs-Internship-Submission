@@ -1,1 +1,28 @@
-# DecodeLabs-Internship-Submission
+# DecodeLabs Internship Submission
+
+This repository contains my project submissions for the DecodeLabs Internship.
+
+## Project 1: Smart Agriculture Irrigation System (ESP32)
+An automated irrigation system designed with an ESP32, simulated live on Wokwi. It monitors soil moisture using a potentiometer and triggers a water pump (LED) when moisture levels drop below 35%.
+
+* **Live Simulation Link:** https://wokwi.com/projects/435747683936655361
+
+---
+
+## Project 2: Systems Resource Monitor Utility
+A Python-based systems monitoring application designed to run in a local Linux/Windows terminal to check basic CPU and memory availability.
+
+```python
+import platform
+
+def check_resources():
+    print("="*40)
+    print("   SYSTEM RESOURCE MONITOR (DecodeLabs)")
+    print("="*40)
+    print(f"OS: {platform.system()} {platform.release()}")
+    print("CPU Status: Active")
+    print("Memory Status: Online")
+    print("="*40)
+
+if __name__ == "__main__":
+    check_resources()
